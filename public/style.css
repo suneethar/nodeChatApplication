@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+.container {
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.inbox {
+    height: 88%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.inbox__people {
+    width: 30%;
+    background: #f1ecec;
+    margin-right: 1rem;
+    padding: 0 1rem;
+}
+
+.inbox__messages {
+    flex-grow: 1;
+}
+
+.message-form {
+    align-self: flex-end;
+    width: 100vw;
+    margin-bottom: 0px;
+}
+
+.message_form__input {
+    width: 90%;
+    height: 100px;
+}
+
+.message_form__button {
+    height: 100px;
+    padding: 20px;
+}
+
+.sent__message p, .received__message p{
+    margin: 0;
+}
+
+.outgoing__message, .received__message {
+    display: inline-block;
+    background: #FFECB3;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    float: left;
+    clear: both;
+    margin: 5px;
+}
+
+.received__message {
+    float: right;
+    background: #FBE9E7;
+}
+
+.time_date {
+    font-size: .8rem;
+    display: inline-block;
+    padding-left: .5rem
+}
